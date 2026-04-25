@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run npm start",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "npm start"
+        },
+        {
+            "name": "Launch Program",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${file}"
+        }
+    ]
+}
